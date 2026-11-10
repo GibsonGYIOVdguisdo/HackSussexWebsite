@@ -1,7 +1,8 @@
 ALL DATA COMMITTED TO FRONT END IS PUBLIC!
 
 For Devs:
-- there is mock data, simply create .env.local with REACT_APP_DEV_MODE=false
+
+- there is mock data, simply create .env.local with REACT_APP_DEV_MODE=true
 - Or run netlify dev (for severless functions to get actual data - some functions still fail e.g. google drive)
 
 // future to do if you cba:
