@@ -2,24 +2,25 @@
   --green: #2ecc71;
   --electric-green: #34d2c8;
   --lime: #8bda94;
-  --teal: #5DCAD1;
+  --teal: #5dcad1;
   --blue: #3498db;
-  --light-blue: #7DB5DB;
-  --basic-blue: #145E8F;
+  --light-blue: #7db5db;
+  --basic-blue: #145e8f;
   --dark-blue: #002942;
   --gunmetal-blue: #3b596e;
   --gunmetal: #365b6d;
-  --dark-gunmetal: #324B5C;
-  --dark-grey: #1C252D;
+  --dark-gunmetal: #324b5c;
+  --dark-grey: #1c252d;
   --super-dark: #002942;
   --darker-blue: #2b3b4c;
   --text: #fff;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
   background-color: var(--dark-grey);
-  background-image: url("assets/Backgrounds/Background.png");
+  background-image: url('assets/backgrounds/Background.png');
   color: var(--text);
   scroll-behavior: smooth;
 }
@@ -29,7 +30,7 @@ html, body {
 }
 
 .gamejam {
-  background-image: url("assets/Backgrounds/GameJamBackground.png");
+  background-image: url('assets/backgrounds/GameJamBackground.png');
 }
 
 .text-dark {
@@ -81,7 +82,7 @@ html, body {
 }
 
 .navbar-toggler {
-  box-shadow: none !important;	
+  box-shadow: none !important;
 }
 
 .dropdown-menu {
@@ -118,11 +119,11 @@ html, body {
 }
 
 .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%2334d2c8%27%3e%3cpath d=%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3e%3c/svg%3e") !important;
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%2334d2c8%27%3e%3cpath d=%27M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z%27/%3e%3c/svg%3e') !important;
 }
 
 .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%2334d2c8%27%3e%3cpath d=%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e") !important;
+  background-image: url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%2334d2c8%27%3e%3cpath d=%27M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e') !important;
 }
 
 .carousel-img {
@@ -131,7 +132,8 @@ html, body {
   object-fit: cover;
 }
 
-.carousel-item > img, .splash{
+.carousel-item > img,
+.splash {
   /* darken slightly */
   filter: brightness(0.6);
 }
@@ -153,7 +155,6 @@ html, body {
 .accordion-button:focus {
   box-shadow: none !important;
 }
-
 
 .schedule.active {
   background-color: var(--electric-green);
@@ -181,7 +182,8 @@ html, body {
   height: 100%;
 }
 
-.circle-left, .circle-right {
+.circle-left,
+.circle-right {
   position: relative;
 }
 
@@ -221,7 +223,7 @@ html, body {
 
 .card:hover {
   box-shadow: 0 0 10px var(--darker-blue);
-  transform: translateY(-1px) scale(1.02)
+  transform: translateY(-1px) scale(1.02);
 }
 
 .dropdown-divider {
@@ -262,11 +264,11 @@ html, body {
 }
 
 .bronze-sponsor {
-  background: linear-gradient(to top, #cd7f32, #f0dab5)
+  background: linear-gradient(to top, #cd7f32, #f0dab5);
 }
 
 .partner-sponsor {
-  background: linear-gradient(to bottom, var(--lime), var(--blue))
+  background: linear-gradient(to bottom, var(--lime), var(--blue));
 }
 
 .img-sponsors {
@@ -275,18 +277,21 @@ html, body {
   max-width: 350px;
 }
 
-.gold-sponsor, .silver-sponsor, .bronze-sponsor, .partner-sponsor {
+.gold-sponsor,
+.silver-sponsor,
+.bronze-sponsor,
+.partner-sponsor {
   border-radius: 5px;
   height: 300px;
 }
 
 /* used in sponsorship's page to scales logos when in mobile */
 @media (max-width: 576px) {
-    .old-sponsors-logo {
-      transform: scale(0.7);
-      max-width: 100%;
-    }
+  .old-sponsors-logo {
+    transform: scale(0.7);
+    max-width: 100%;
   }
+}
 
 /* Blur the background */
 .modal-backdrop.show {
@@ -393,4 +398,3 @@ html, body {
 .required {
   color: #52e3e0;
 }
-
